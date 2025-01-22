@@ -1,0 +1,67 @@
+.Blog{
+    position: relative;
+    top: 100px;
+    height: 100vh;
+   
+}
+.Blog .card-box{
+
+   background-color: none;
+   border-radius: 0px;
+   border: none;
+}
+.Blog .temple img{
+    margin-left: 10px;
+    width: auto;
+    height: 80vh;
+}
+.Blog .temple h1{
+    font-size: 2em;
+    font-style: italic;
+    color: blue;
+ }
+ .Blog .temple p{
+    font-size: 1em;
+    font-style: italic;
+    color: darkcyan;
+ }
+
+.Blog .temple ul li{
+    text-decoration: none;
+   color: brown;
+    font-style: italic;
+    font-size: 1.2em;
+ }
+.Blog .temple .item-img{
+    margin: auto 50px;
+}
+
+.Blog .temple .item-img img{
+    width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.Province h1{
+    font-size: 2em;
+    font-style: italic;
+    color: blue;
+}
+.Province p{
+    font-size: 1.3em;
+    font-style: italic;
+   
+}
+.Province ul li{
+    text-decoration: none;
+   color: brown;
+    font-style: italic;
+    font-size: 1.2em;
+ }
+.Province .item-img{
+    margin: auto 10px;
+}
+.Province .item-img img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}

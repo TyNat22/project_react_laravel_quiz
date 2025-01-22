@@ -1,0 +1,48 @@
+.result-page{
+    position: relative;
+    top: 80px;
+    background-color: aquamarine;
+    height: 90vh;
+    padding: 5% 30%;
+}
+
+
+.result {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 60vh;
+    width: 600px;
+  
+    background-color: #001F30;
+    border-radius: 20px;
+    box-shadow: 2px 1px 3px gray;
+  }
+.result img {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+  }
+  .result .title{
+    color: brown;
+    font-size: 30px;
+    margin: 30px auto;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .result-score .text-grade{
+        color: #fff;
+  }
+  .result .title span{
+    color: #fff;
+    font-size: 30px;
+    
+  }
+.result .group-btn{
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 80px;
+  font-style: italic;
+}

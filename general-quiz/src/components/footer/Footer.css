@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.footer{
+    background-color: #001F30;
+    height: 55vh;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+}
+.footer .divider{
+    color: #fff;
+    margin: 10px 50px;
+}
+.footer .sub-navbar-bottom-left{
+    margin: 100px  50px;
+}
+.footer .sub-navbar-bottom-left h1{
+   color: #fff;
+    font-size: 3em;
+}
+.footer .sub-navbar-bottom-center{
+   position: relative;
+   align-items: center;
+   justify-items: center;
+   margin: 100px 0 10px;
+    
+}
+.footer .sub-navbar-bottom-center h2{
+    color: #fff;
+    font-size: 2em;
+    font-style: italic;
+    margin: 0 0 0 30px;
+    
+}
+.footer .sub-navbar-bottom-center ul li{
+    color: #fff;
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.footer .sub-navbar-bottom-center span{
+    margin-right: 15px;
+    color: #fff;
+}
+
+.footer .sub-navbar-bottom-right{
+    margin-top: 150px;
+    margin-right: 50px;
+
+}
+.footer .sub-navbar-bottom-right p{
+   color: #fff;
+   font-size: 2em;
+   margin-right: 10px;
+
+}
+.footer .sub-navbar-bottom-right span{
+    font-size: 2em;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.footer .sub-navbar-bottom-right img{
+   height: 50px;
+   width: 50px;
+   margin-left: 10px;
+}

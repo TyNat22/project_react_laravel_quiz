@@ -1,0 +1,102 @@
+.login-page{
+    position: relative;
+    top: 75px;
+    height: 100vh;
+  
+    
+}
+.login-page .item-box{
+    height: 80vh;
+    margin-top: 40px;
+   border-radius: 20px;
+    /* box-shadow: 0.5px 0.5px 0.5px black; */
+    border: 1px solid rgb(0,0,0,0.08);
+}
+.login-page .item-box .left-box{
+    height: 100vh;
+    /* background-color: rgb(114, 179, 17); */
+    width: 50%;
+}
+.login-page .item-box .right-box{
+    height: 100vh;
+    /* background-color: rgb(218, 18, 48); */
+    width: 50%;
+}
+.login-page .item-box .right-box img{
+    margin-top: 50px;
+    width: 650px;
+}
+/*  */
+
+  .login_form{
+    margin: 90px 0 0 90px;
+  }
+  .login_form form{
+      font-family: "Sanchez", serif;
+      font-style: italic;
+      height: 65vh;
+      width: 450px;
+      border-radius: 15px;
+      
+  }
+  .login_form form h1{
+      margin-bottom: 10%;
+      padding-top: 10px;
+      position: relative;
+     
+  }
+  .login_form form label{
+     font-size: 1.5em;
+     font-weight: bold;
+     padding-left: 20px;
+  }
+  .login_form form input{
+      margin-left: 20px;
+      width: 400px;
+      height: 50px;
+      background: none;
+      border: 1px solid #000;
+   }
+  .bottom_login_register{
+    margin:10px 0 0 80px;
+  }
+  .bottom_login_register p{
+    font-size: 1.5em;
+  }
+  .bottom_login_register .login_to_register{
+    margin-top: -12px;
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+    font-size: 1.5em;
+  }
+  .login_form .form_login_button{
+    margin-left:350px;
+   
+  }
+  
+  
+  .login_to_register{
+    border: none;
+    background: none;
+  }
+  
+  @media (max-width: 970px) {
+    .login_form{
+      margin:5% 250px;
+   }
+  }
+  @media (max-width: 770px) {
+    .login_form{
+      margin:5% 100px;
+   }
+  }
+
+
+
+  .line{
+    position: relative;
+    background: #000;
+    padding: 0.5px;
+   
+  }

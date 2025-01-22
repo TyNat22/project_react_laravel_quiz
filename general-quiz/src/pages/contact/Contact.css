@@ -1,0 +1,107 @@
+.contact{
+    position: relative;
+    top: 80px;
+    height: 100vh;
+    background-color: #013957;
+}
+.contact .item-box{
+    justify-content: space-between;
+    display: flex;
+}
+
+.contact .item-box .left-box{
+    width: 50%;
+    height: 80vh;
+    margin-top: 100px;
+}
+.contact .item-box h1{
+    margin: 40px auto 0;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+}
+.contact .item-box .left-box label{
+    font-size: 1.5em;
+    color: #fff;
+    font-style: italic;
+    margin: auto 50px 0;
+}
+.contact .item-box .left-box input{
+    margin: auto 50px;
+    width: 500px;
+    height: 8vh;
+    color: #fff;
+    border: 1px solid #fff;
+    background: none;
+    
+}
+.contact .item-box .left-box input::placeholder{
+   color: #fff;
+   font-size: 1.5em;
+   font-style: italic;
+    
+}
+.contact .item-box .left-box textarea{
+    margin: auto 50px;
+    width: 500px;
+    height: 10vh;
+    color: #fff;
+    border: 1px solid #fff;
+    background: none;
+    
+}
+.contact .item-box .left-box button{
+    width: 120px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: none;
+    color: #fff;  
+    font-size: 1.2em;
+    font-style: italic;
+    margin-left: 425px;
+}
+.contact .item-box .left-box button:hover{
+    background: blue;
+    border: 1px solid #fff; 
+
+}
+.contact .item-box .right-box {
+    height: 100vh;
+    /* background-color: blue; */
+    width: 50%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+
+}
+.contact .item-box .right-box img{
+   height: 100%;
+   width: 100%;
+
+}
+
+@media (max-width: 865px) {
+    .contact{
+        height: 200vh;
+        background-color: #013957;
+    }
+   
+    .contact .item-box .right-box {
+        margin-top: 500px;
+       left: -350px;
+     
+     }
+     .contact .item-box .right-box img{
+        height: 400px;
+        width: 440px;
+     
+     }
+     
+   
+
+  }

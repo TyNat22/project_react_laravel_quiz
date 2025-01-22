@@ -1,0 +1,110 @@
+
+.navbar {
+    font-family: "Sanchez", serif;
+    font-style: italic;
+    position: fixed; /* Make the navbar fixed */
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    background-color: white;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    
+  }
+  
+  .navbar h1 {
+    color: black;
+  }
+  .navbar.scrolled {
+    background-color: #013957;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .navbar.scrolled   .navbar-nav li a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    /* cursor: pointer; */
+  }
+  .navbar.scrolled h1{
+    /* cursor: pointer; */
+    color: #fff;
+    
+  }
+ 
+ 
+  .navbar img{
+    height: 60px;
+    width: auto;
+    margin: auto 80px;
+  }
+  #navbarText{
+    margin-right: 80px;
+  }
+  .navbar-nav li{
+   
+    font-size: 1.8em;
+   
+   
+  }
+  .navbar-nav li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    
+  }
+  .navbar-nav li a.active {
+    border-bottom: 5px solid #4109f9;
+    padding-bottom: 2px;
+   
+  
+  } 
+  .navbar span{
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 15px;
+    margin-left: 8px;
+ 
+  }
+  .btn-logout{
+   
+    font-size:1.2em;
+    color: #fff;
+  }
+  .navbar .dropdown{
+    margin-right: 160px;
+  }
+  .dropdown .dropdown-menu{
+    background-color: aqua;
+    width: 350px;
+   background-color: gray;
+   
+  }
+  
+  .dropdown .dropdown-menu a{
+    color: white;
+    /* font-size: 1em; */
+    background: none;
+    margin-left: 20px;
+    
+  }
+  .dropdown .dropdown-menu a:hover{
+    padding: 2px;
+    border-bottom: 4px solid white;
+    height: 100%;
+    width: 100%;
+  }
+.dropdown button{
+  background: none;
+  border: none;
+  color: #fff;
+}
+.dropdown span{
+ font-size: 0.8em;
+ margin-top: -5px;
+}
+.nav-item img{
+  height: 25px;
+  width: 35px;
+  margin: 0 5px 0 0;
+  
+}
