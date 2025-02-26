@@ -13,6 +13,9 @@ class Kernel extends HttpKernel
      *
      * @var array
      */
+
+
+
     protected $middleware = [
         // Laravel's default middleware
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,

@@ -4,6 +4,7 @@ namespace App\Models\Api;
 
 use App\Models\Cart;
 use App\Models\User;
+use App\Models\Api\Quiz;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
@@ -15,6 +16,11 @@ class Category extends Model
         'name',
         'image_url'
     ];
+     public function quizzes()
+    {
+        return $this->hasMany(Quiz::class);
+    }
+
     public function getAllQuiz(){
         return $this->hasMany(Quiz::class,'category_id','id');
     }
@@ -27,4 +33,8 @@ class Category extends Model
     {
         return $this->hasMany(Cart::class);
     }
+
+
+
+
 }

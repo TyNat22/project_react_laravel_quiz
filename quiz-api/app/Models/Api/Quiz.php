@@ -2,8 +2,9 @@
 
 namespace App\Models\Api;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\Api\Category;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Quiz extends Model
 {
@@ -13,9 +14,16 @@ class Quiz extends Model
         'question', 'category_id',
         'correct_answer', 'incorrect_answers'];
 
+
     protected $casts = [
         'incorrect_answers' => 'array'
     ];
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class,'category_id','id');
+    }
+
     public function toArray()
 {
     $array = parent::toArray();
@@ -28,7 +36,8 @@ class Quiz extends Model
     }
 
     return $array;
-}
+        }
 
-}
+
+        }
 
